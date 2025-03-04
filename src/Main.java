@@ -31,15 +31,7 @@ public class Main {
      * Displays the main menu to the user.
      */
     public static void showMenu() {
-        System.out.println("Welcome to the To-Do List Application!");
-        System.out.println("1. Log in");
-        System.out.println("2. Sign up");
-        System.out.println("3. Exit");
-        System.out.print("Enter your choice: ");
-        // Ask for user choice
-        Scanner scanner = new Scanner(System.in);
-        int choice = scanner.nextInt();
-        handleMenu(choice);
+      );
     }
 // i will update this branch
     /**
