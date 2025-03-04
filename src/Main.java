@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.*;
 public class Main {
     // Static list of users, acting as a database
     private static ArrayList<User> users = new ArrayList<>();
@@ -15,11 +17,12 @@ public class Main {
         }
     };
     private static boolean isRunning = true;
-
+//branchBRANCHBRANCHBRANCH
     /**
      * The entry point of the application.
      * @param args The command-line arguments.
      */
+
     public static void main(String[] args) {
         users.add(new User("test", "test"));
         while (isRunning) {
