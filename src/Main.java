@@ -15,7 +15,7 @@ public class Main {
         }
     };
     private static boolean isRunning = true;
-//branchBRANCHBRANCHBRANCH
+
     /**
      * The entry point of the application.
      * @param args The command-line arguments.
@@ -31,9 +31,17 @@ public class Main {
      * Displays the main menu to the user.
      */
     public static void showMenu() {
-      );
+        System.out.println("Welcome to the To-Do List Application!");
+        System.out.println("1. Log in");
+        System.out.println("2. Sign up");
+        System.out.println("3. Exit");
+        System.out.print("Enter your choice: ");
+        // Ask for user choice
+        Scanner scanner = new Scanner(System.in);
+        int choice = scanner.nextInt();
+        handleMenu(choice);
     }
-// i will update this branch
+//comment comment new
     /**
      * Handles the user's choice, mapping the menu options to the corresponding methods.
      * @param choice The user's choice.
